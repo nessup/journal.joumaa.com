@@ -1,0 +1,4 @@
+name: writing by dany joumaa
+markdown: redcarpet
+pygments: true
+permalink: /:title.html

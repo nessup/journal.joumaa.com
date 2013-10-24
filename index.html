@@ -1,0 +1,15 @@
+---
+layout: default
+title: writing by dany joumaa
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}"><h1 class="headline">{{ post.title }}</h1></a></li>
+      <div class="post">
+	      {{ post.content }}
+	  </div>
+    {% endfor %}
+  </ul>
+</div>
