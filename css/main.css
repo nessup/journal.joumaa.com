@@ -177,6 +177,12 @@ header h1 {
   line-height: 32px;
 }
 
+.post p img {
+  display: block;
+  margin: 0 auto;
+  max-width: 640px;
+}
+
 .post p:last-child {
   margin-bottom: 10px;
 }
